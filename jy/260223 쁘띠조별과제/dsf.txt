@@ -1,0 +1,56 @@
+<div class="section-menu">
+  <div class="map-container">
+    <div class="japan-area">
+      <div class="area-1"><img src="https://www.kurasushi.co.jp/menu/images/menu-search-heading.png" alt=""></div>
+      <div class="area-2">
+        <div class="select-wrapper">
+          <select><option value="" selected>全国</option></select>
+        </div>
+      </div>
+    </div>
+    <hr class="map-hr"/>
+    <div class="click-heading"><img src="https://www.kurasushi.co.jp/menu/images/menu-search-map_heading.png" alt=""></div>
+
+    <div class="map-content-wrapper">
+      
+      <div class="map-buttons-group">
+        <a href="#" class="area-btn red-line" data-area="west">
+          <img src="https://www.kurasushi.co.jp/menu/images/map_text_west_sp.png" alt="서일본">
+        </a>
+        <a href="#" class="area-btn blue-line" data-area="east">
+          <img src="https://www.kurasushi.co.jp/menu/images/map_text_east.png" alt="동일본">
+        </a>
+        <a href="#" class="area-btn yellow-line" data-area="kyushu">
+          <img src="https://www.kurasushi.co.jp/menu/images/map_text_kyushu_sp.png" alt="규슈">
+        </a>
+        
+        <div class="sub-btns-grid">
+          <a href="#" class="sub-btn"><img src="https://www.kurasushi.co.jp/menu/images/map_text_urban_120_sp.png" alt=""></a>
+          <a href="#" class="sub-btn"><img src="https://www.kurasushi.co.jp/menu/images/map_text_urban_130.png" alt=""></a>
+          <a href="#" class="sub-btn"><img src="https://www.kurasushi.co.jp/menu/images/map_text_urban_150.png" alt=""></a>
+          <a href="#" class="sub-btn hokkaido-line" data-area="hokkaido">
+            <img src="https://www.kurasushi.co.jp/menu/images/map_text_hokkaido_small.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="map-image-wrap">
+        <div class="map-real-japan">
+          <div class="hokkaido-path path-group" data-area="hokkaido">
+            <svg viewBox="0 0 577 382"><path d="..." fill="#7cd3a1"/></svg>
+          </div>
+          <div class="higashiJap-path path-group" data-area="east">
+            <svg viewBox="0 0 325.5 602"><path d="..." fill="#59b1ff"/></svg>
+          </div>
+          <div class="nishiJap-path path-group" data-area="west">
+            <svg viewBox="0 0 442.9 396.7"><path d="..." fill="#ff7c7c"/></svg>
+          </div>
+          <div class="okinawa-path path-group" data-area="kyushu">
+            <svg viewBox="0 0 458.9 388.5"><path d="..." fill="#ffcc33"/></svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

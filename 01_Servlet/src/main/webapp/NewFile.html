@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	실행을 한번 (서버 실행)
+	
+	zzz 코드 수정 > 저장
+	
+	소스 수정 > 저장 > 새로고침 (브라우저)
+	ctrl + shift + r : 캐시 비우고 새로고침 (js, css 적용 잘 되게)
+	
+	톰캣이 버그가 있을때 (실행이 잘 안될때)
+	*1. 캐시 비우고 새로고침 (ctrl + shift + r)
+	*2. 서버 재실행 (서버탭에 우클릭 > restart)
+	*3. tomcat 우클릭 > clean 후 재실행
+	*4. tomcat 실려있는걸 지우고 다시 실행
+	5. tomcat 다시 잡기 (재설치?)
+	---------------------------------------95% 해결
+	6. 재부팅 (이클립스만 재부팅, 그래도 안되면 컴퓨터 재부팅)
+	7. 파일명 바꿔보기
+	8. 프로젝트 설정 확인
+	9. 프로젝트 재생성
+	10. 워크스페이스 교체
+	----------------------------------------
+	
+	1. encountered 에러 = 어노테이션 에러 (어노테이션 예시 : @WebServlet("/Output"))
+	2. java.lang.classnotfoundexception :
+		startip.Bootstrap
+		= 1. java complier version (자바 버전 체크)		2. 이클립스 재부팅
+	3. already in user .. port
+		80 8080
+		
+		3-1.
+		cmd
+		netstat - oan
+		
+		taskkill - f/pid 그 프로세스 아이디
+		
+		3-2 컴퓨터 재부팅
+		
+		
+		
+		
+	
+
+
+</body>
+</html>

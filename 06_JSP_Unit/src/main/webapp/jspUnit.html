@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#5f9cff,#6f6bff);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+form{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+    width:260px;
+}
+
+form div:first-child{
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+input{
+    width:90%;
+    padding:8px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+select{
+    width:95%;
+    padding:8px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background:#5f9cff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.25s;
+}
+
+button:hover{
+    background:#3d7ff0;
+}
+
+</style>
+<title>Insert title here</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form action="jspOutput.jsp">
+	<div>
+	<div>단위변환</div>
+	<div>변환할 값</div>
+	<div> <input type="number" name="int"> </div>
+	<div>단위</div>
+	<select name = translate>
+	<option value="c2i"> cm -> inch </option>
+	<option value="m2p"> ㎡ -> 평 </option>
+	<option value="c2f"> ℃ -> ℉ </option>
+	<option value="km2mi"> km/h -> mi/h </option>
+	</select> <br>
+	<div> <button type="submit">변환</button> </div>
+	</div>
+	</form>
+	<script type="text/javascript">
+	function check() {
+		const numE1 = document.querySelector
+		
+	}</script>
+</body>
+</html>

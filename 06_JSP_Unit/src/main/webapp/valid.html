@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script type="text/javascript">
+		function check() {
+			const i1El = document.querySelector("#i1");
+			if (i1El.value == "") {
+				alert("입력하세요!!")
+				return false;
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<!-- 	1.check-->
+	<form action="asd" onsubmit="return check()">
+		<input id="i1" name="test">
+		<button>test1</button>
+	</form>
+
+	<script>
+		function check2() {
+			const i1El = document.querySelector("#i1");
+			const formEl = document.querySelector("#myForm");
+			if (i1El.value == "") {
+				alert("입력하세요!!")
+				return;
+			}
+			formEl.submit();
+		}
+	</script>
+	<!-- 	2. check2-->
+	<form id="myForm" action="asd">
+		<button type="button" onclick="check2()">test</button>
+	</form>
+
+
+
+
+</body>
+
+</html>
