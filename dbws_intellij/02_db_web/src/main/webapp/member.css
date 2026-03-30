@@ -1,0 +1,56 @@
+body {
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #e6f7ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 전체 박스 */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+/* 제목 */
+.title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff6b9a;
+}
+
+/* 각각의 회원 카드 */
+.member {
+    background: #fff5f8;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+}
+
+/* 호버 효과 */
+.member:hover {
+    transform: translateY(-3px);
+    background: #ffeaf1;
+}
+
+/* 이름 */
+.name {
+    font-weight: bold;
+    color: #333;
+}
+
+/* 나이 */
+.age {
+    font-size: 14px;
+    color: #888;
+}

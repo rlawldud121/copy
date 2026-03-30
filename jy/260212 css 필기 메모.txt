@@ -1,0 +1,45 @@
+* CSS 새 폴더 생성
+*index1 파일 생성
+* 설정 (ctrl+,) json 편집? 비쥬얼스튜디오 설정 정보값 수정 가능 -> 주석색을 변경하고싶다..
+* body에 내용 작성 후 style 로 이동
+* color 적용해보기 (h1 h2 나눠서 적용)
+* 다시 body로 돌아가서 javascript 부분에 일부 효과 넣기
+=> <span>java</span>
+* span 태그 자체는 별다른 기능 x
+그저 원하는 부분을 감싸서 사용하기 위한 부분 (같은 태그 내에서 일부 적용)
+* <h3>부분 생성 후 일부 타겟 적용 => 클래스 생성
+eg. <h3 class="ddd">
+<style>
+* 일부 타겟 적용2
+.kkk {color : red ;} or .kkk{background-color : red ;}
+* span 부분 별도 적용
+<span id = "span-색깔">
+#span-blue {
+        color: blue;
+      }
+
+
+* <style>
+ * h1 p { h1태그 안의 p만 스타일 적용}
+ * 마우스 가져다대면 서식 적용
+p:hover {
+        color: red;
+      }
+* 마우스 클릭시 서식 적용
+ p:active {
+        font-size: 30pt;
+      }
+(hover active 사용시 마음대로 띄어쓰기 xxx (문법이라 오류 남))
+
+**index2 파일 생성
+하이퍼링크 작성 후 스타일 적용해보기..
+=> 태그는 적용하려는 스타일? 데이터와 가까운순서대로 강력하게 적용
+
+
+==채진아 미안!==
+index2.css 생성 후 작성 테스트
+html_div 폴더 생성 후 index.html 작성 제작
+flex-continer (정렬, 너비 설정, 맞춤 등등 )
+
+flex 사용할때는
+disply: flex; 사전에 설정해 두기

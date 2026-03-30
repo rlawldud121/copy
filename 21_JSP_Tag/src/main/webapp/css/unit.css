@@ -1,0 +1,122 @@
+/*<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+rel="stylesheet">*/
+
+ * {
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+
+/* 카드 박스 */
+.card {
+    background: white;
+    padding: 40px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* 제목 */
+.card h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* 입력창 */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* 버튼 */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #5563d6;
+}
+
+/*<!-- 이게 폰트 적용 -->*/
+/*<link
+ href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+rel="stylesheet">*/
+
+
+ * {
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+
+
+.card {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.result {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5563d6;
+}
+
+.blue {
+    color: #4facfe;
+    font-weight: bold;
+}
+
+.green {
+    color: #43e97b;
+    font-weight: bold;
+}
+
+.red {
+    color: #ff6a6a;
+    font-weight: bold;
+}
+
+.purple {
+    color: #a18cd1;
+    font-weight: bold;
+}
